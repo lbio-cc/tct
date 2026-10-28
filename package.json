@@ -1,0 +1,22 @@
+{
+  "name": "tct",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TCT 全流程溯源合约：平台、项目、数字凭证及生命周期事件记录",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lbio-cc/tct.git"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "demo": "hardhat run scripts/demo.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
